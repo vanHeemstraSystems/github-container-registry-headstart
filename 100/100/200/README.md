@@ -129,6 +129,16 @@ $ touch .npmrc
 ```
 package.json
 
+9. Commit and push your changes to GitHub.
+
+```
+$ git add .github/workflows/release-package.yml
+# Also add the file you created or edited in the previous step.
+$ git add .npmrc package.json
+$ git commit -m "workflow to publish package"
+$ git push
+```
+
 
 
 
