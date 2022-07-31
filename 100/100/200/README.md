@@ -116,7 +116,7 @@ $ touch .npmrc
 ```
 
 ```
-@YOUR-USERNAME: registry=https://npm.pkg.com
+@YOUR-USERNAME: registry=https://npm.pkg.github.com
 ```
 .npmrc
 
