@@ -13,3 +13,19 @@ The Container registry stores container images within your organization or perso
 ## 300 - Authenticating to the Container registry
 
 More ...
+
+## 400 - Pushing container images
+
+More ...
+
+## 500 - Pulling container images
+
+More ...
+
+## 600 - Building container images
+
+More ...
+
+## 700 - Tagging container images
+
+More ...
