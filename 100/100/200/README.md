@@ -44,8 +44,14 @@ package.json
 
 **NOTE**: ```npm init``` will complain whe using capitals in the package name, hence we have to use all lowercase for the package name instead (@vanheemstrasystems/github-packages-demo-repository).
 
+5. Run ```npm install``` to generate the ```package-lock.json``` file, then ```commit``` and ``push``` your changes to GitHub.
 
-
+```
+$ npm install
+$ git add index.js package.json package-lock.json
+$ git commit -m "initialize npm package"
+$ git push
+```
 
 More ...
 
