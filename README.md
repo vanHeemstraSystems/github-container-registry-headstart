@@ -3,7 +3,7 @@ github-container-registry-headstart
 
 ## 100 - Introduction
 
-...
+Based on "Quickstart for GitHub Packages" at https://docs.github.com/en/packages/quickstart
 
 ## 200 - Personal Access Token (PAT)
 
