@@ -138,7 +138,9 @@ $ git add .npmrc package.json
 $ git commit -m "workflow to publish package"
 $ git push
 ```
+10. The workflow that you created will run whenever a new release is created in your repository. If the tests pass, then the package will be published to GitHub Packages.
 
+To test this out, navigate to the **Code** tab in your repository and create a new release. For more information , see "(Managing releases in a repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release)."
 
 
 
