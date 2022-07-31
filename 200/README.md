@@ -8,8 +8,8 @@ You can store and manage Docker and OCI images in the Container registry, which 
 
 The Container registry stores container images within your organization or personal account, and allows you to associate an image with a repository. You can choose whether to inherit permissions from a repository, or set granular permissions independently of a repository. You can also access public container images anonymously.
 
-# 200 - About Container registry support
+## 200 - About Container registry support
 
-# 300 - Authenticating to the Container registry
+## 300 - Authenticating to the Container registry
 
 More ...
