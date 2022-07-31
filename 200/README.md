@@ -10,6 +10,13 @@ The Container registry stores container images within your organization or perso
 
 ## 200 - About Container registry support
 
+The Container registry currently supports the following container image formats:
+
+- [Docker Image Manifest V2, Schema 2](https://docs.docker.com/registry/spec/manifest-v2-2/)
+- [Open Container Initiative (OCI) Specifications](https://github.com/opencontainers/image-spec)
+
+When installing or publishing a Docker image, the Container registry supports foreign layers, such as Windows images.
+
 ## 300 - Authenticating to the Container registry
 
 More ...
