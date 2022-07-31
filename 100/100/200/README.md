@@ -106,6 +106,29 @@ jobs:
 ```
 .github/workflows/release-package.json
 
+8. Tel NPM whcih scope and registry to publish packages to using one of the following methods:
+
+- Add an NPM configuration file for the repository by creating a ```.npmrc``` file in the root directory with the contents (where ```@YOUR-USERNAME``` is here ```@vanheemstrasystems```):
+
+```
+$ cd ../../
+$ touch .npmrc
+```
+
+```
+@YOUR-USERNAME: registry=https://npm.pkg.com
+```
+.npmrc
+
+- Edit the ```package.json``` file and specify the ```publishConfig``` key (where ```@YOUR-USERNAME``` is here ```@vanheemstrasystems```):
+
+```
+"publishConfig": {
+   "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+ }
+```
+package.json
+
 
 
 
