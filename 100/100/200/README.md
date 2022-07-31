@@ -38,7 +38,7 @@ test command: exit 0
 ```
 package.json
 
-**NOTE**: npm init will complain whe using capitals in the package name, hence we have to use all lowercase for the package name instead (@vanheemstrasystems/github-packages-demo-repository).
+**NOTE**: ```npm init``` will complain whe using capitals in the package name, hence we have to use all lowercase for the package name instead (@vanheemstrasystems/github-packages-demo-repository).
 
 
 More ...
