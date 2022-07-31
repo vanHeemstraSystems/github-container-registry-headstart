@@ -30,15 +30,21 @@ $ npm init
 ```
 
 ```
+{
+  ...
+  "name": "@YOUR-USERNAME/YOUR-REPOSITORY",
+  ...
+  "scripts": {
+    "test": "exit 0"
+  }
 ...
-package name: @YOUR-USERNAME/YOUR-REPOSITORY
-...
-test command: exit 0
-...
+}
 ```
 package.json
 
 **NOTE**: ```npm init``` will complain whe using capitals in the package name, hence we have to use all lowercase for the package name instead (@vanheemstrasystems/github-packages-demo-repository).
+
+
 
 
 More ...
