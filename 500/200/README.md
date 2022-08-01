@@ -10,3 +10,7 @@ To authenticate to a GitHub Packages registry within a GitHub Actions workflow, 
 - a PAT to install packages associated with other private repositories (which ```GITHUB_TOKEN``` can't access).
 
 For more information about ```GITHUB_TOKEN``` used in GitHub Actions workflows, see "[Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow)."
+
+## 100 - Authenticating with a personal access token
+
+WE ARE HERE
