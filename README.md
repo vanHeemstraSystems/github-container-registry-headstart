@@ -21,6 +21,20 @@ Based on "Working with the Docker registry" at https://docs.github.com/en/packag
 
 See [README.md](./300/README.md)
 
-## 300 - Use GitHub Container Registry (ghcr.io) as Remote Repository with Artifactory 
+## 400 - Working with the RubyGems registry
 
-See [README.md](./300/README.md)
+Based on "Working with the RubyGems registry" at https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-rubygems-registry
+
+See [README.md](./400/README.md)
+
+## 500 - Working with the npm registry
+
+Based on "Working with the npm registry" at https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
+
+See [README.md](./500/README.md)
+
+More ...
+
+## 999 - Use GitHub Container Registry (ghcr.io) as Remote Repository with Artifactory 
+
+See [README.md](./999/README.md)
