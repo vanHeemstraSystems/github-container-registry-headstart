@@ -15,4 +15,17 @@ For more information about ```GITHUB_TOKEN``` used in GitHub Actions workflows, 
 
 ## 100 - Authenticating with a personal access token
 
+You must use a personal access token with the appropriate scopes to publish and install packages in GitHub Packages. For more information, see "[About GitHub Packages](https://docs.github.com/en/packages/learn-github-packages/about-github-packages#authenticating-to-github-packages)."
+
+You can authenticate to GitHub Packages with npm by either editing your per-project ```.npmrc``` file to include your personal access token.
+
+To authenticate by adding your personal access token to your ```.npmrc``` file, edit the ```.npmrc``` file for your project to include the following line, replacing **TOKEN** with your personal access token. Create a new ```.npmrc``` file if one doesn't exist.
+
+```
+//npm.pkg.github.com/:_authToken=TOKEN
+```
+.npmrc
+
+
+
 WE ARE HERE
