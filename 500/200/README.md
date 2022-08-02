@@ -6,7 +6,7 @@ You can use a personal access token (PAT) to authenticate to GitHub Packages or 
 
 To authenticate to a GitHub Packages registry within a GitHub Actions workflow, you can use:
 
-- ```GITHUB_TOKEN``` to publish packages associated with the workflow repository.
+- ```GITHUB_TOKEN``` to publish packages associated with the workflow repository. See "[GitHub Actions: GITHUB_TOKEN Explained | How it works, Change Permissions, Customizations](https://www.youtube.com/watch?v=jEK07KPEjnY)"
 - a PAT to install packages associated with other private repositories (which ```GITHUB_TOKEN``` can't access).
 
 For more information about ```GITHUB_TOKEN``` used in GitHub Actions workflows, see "[Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow)."
