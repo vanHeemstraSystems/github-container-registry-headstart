@@ -9,7 +9,7 @@ To authenticate to a GitHub Packages registry within a GitHub Actions workflow, 
 - ```GITHUB_TOKEN``` to publish packages associated with the workflow repository. See "[GitHub Actions: GITHUB_TOKEN Explained | How it works, Change Permissions, Customizations](https://www.youtube.com/watch?v=jEK07KPEjnY)"
 - a PAT to install packages associated with other private repositories (which ```GITHUB_TOKEN``` can't access).
 
-**NOTE**: A GITHUB_TOKEN expires as soon as a job (in a GitHub Action) has been completed, whereas a PAT doesn't expire. Hence, why a GITHUB_TOKEN is a more secure way to authenticate as it does not allow an intruder to use it after it expires.
+**NOTE**: A GITHUB_TOKEN expires as soon as a job (in a GitHub Action) has been completed, whereas a PAT doesn't expire unless you choose to. Hence, why a GITHUB_TOKEN is a more secure way to authenticate as it does not allow an intruder to use it after it expires.
 
 For more information about ```GITHUB_TOKEN``` used in GitHub Actions workflows, see "[Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow)."
 
